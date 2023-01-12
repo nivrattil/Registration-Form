@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <title>Registrations Form</title>
+    <link rel="icon" type="image/png" href="/image/fevicon.ico">
+    <body>
+        <h1 style="text-align:center">Google Drive for the 2022/2023 batch</h1>
+        <h5 style="color:red">*Please fill required field</h5>
+        <form action="/action_page.php"><br>
+            <label for="fname">Name*</label><br>
+            <input type="text" id ="fname" name="fname"><br>
+            <label for="email">Email*</label><br>
+            <input type="email id="email" name="email"><br>
+            <label for="phone">Mobile No*</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> <br>
+            <label for="birthday">DOB*</label><br>
+            <input type="date" id="birthday" name="birthday"><br>
+            <label for="quantity">10<sup>th</sup> %</label><br>
+            <input type="number" id="quantity" name="quantity" min="0" max="9"><br>
+            <label for="quantity">12<sup>th</sup> %</label><br>
+            <input type="number" id="quantity" name="quantity" min="0" max="9"><br>
+            <label for="quantity">CGPA / %</label><br>
+            <input type="number" id="quantity" name="quantity"><br>
+            <label for=degree>Select Degree</label><br>
+            <select id="degree" name="degree">
+                <option value="B.Tech">B.Tech</option>
+                <option value="BE">BE</option>
+                <option value="M.Tech">M.Tech</option>
+                <option value="ME">ME</option>
+                <option value="MCA">MCA</option>
+            </select><br>
+            <label for="year">Pass out Year</label><br>
+            <select id="year" name="year">
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+            </select><br>
+            <label for="branch">Specializations</label><br>
+            <select id="branch" name="branch">
+            <option value="Computer Science">Computer Science</option>
+            <option value="Information Technology">Information Technology</option>
+            <option value="Chemical Engineering">Chemical Engineering</option>
+            <option value="Mechanical Engineering">Mechanical Engineering</option>
+            <option value="Textile Engineering">Textile Engineering</option>
+            <option value="Electrical Engineering">Electrical Engineering</option>
+            <option value="Instrumentations Engineering">Instrumentations Engineering</option>
+            <option value="Electronics and Telecommunication Engineering">Electronics and Telecommunication Engineering</option>
+            <option value="Production Department">Computer Science</option>
+            <option value="Civil Engineering">Civil Engineering</option>
+            </select><br>
+            <label for="fname">Any Backlog</label><br>
+            <select id="fname" name="fname">
+            <option value="No">No</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            </select><br>
+            <label for="fname">Education Gap</label><br>
+            <select id="fname" name="fname">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select><br>
+            <label for="myfile">Resume/CV</label><br>
+            <input type="file" id="myfile" name="myfile"><br>
+            <label for="fname">Declarations:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <input type="submit" value="submit"><br>
+
+           
+        </form>
+
+    </body>
+</html>
